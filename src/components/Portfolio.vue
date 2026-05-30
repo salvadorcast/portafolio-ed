@@ -4,10 +4,10 @@
       <a href="#" class="logo">Eduardo Ramírez</a>
 
       <div class="nav-links">
-        <a href="#about">Sobre mí</a>
-        <a href="#experience">Experiencia</a>
-        <a href="#projects">Proyectos</a>
-        <a href="#contact">Contacto</a>
+        <a href="#about"><span class="material-symbols-outlined size-10"> person </span> Sobre mí</a> |
+        <a href="#experience"><span class="material-symbols-outlined size-10"> work_history </span> Experiencia</a> |
+        <a href="#projects"><span class="material-symbols-outlined size-10"> code_xml </span> Proyectos</a> |
+        <a href="#contact"><span class="material-symbols-outlined size-10"> call </span> Contacto</a>
       </div>
     </nav>
 
@@ -18,9 +18,7 @@
         <h1>Construyo aplicaciones web y móviles.</h1>
 
         <p class="hero-text">
-          Soy Eduardo Ramírez, desarrollador con experiencia en Laravel, Vue,
-          PHP, bases de datos y aplicaciones móviles. Me enfoco en crear
-          soluciones claras, estables y fáciles de usar.
+          Soy Eduardo Ramírez, desarrollador de platformas Web, bases de datos y aplicaciones móviles. Me enfoco en crear soluciones claras, estables y fáciles de usar.
         </p>
 
         <div class="hero-actions">
@@ -41,7 +39,9 @@
     <section id="about" class="section split">
       <div>
         <p class="section-label">Sobre mí</p>
-        <h2>Perfil</h2>
+        <h2>  <span class="material-symbols-outlined size-36"> person </span> Perfil</h2> 
+
+
       </div>
 
       <p>
@@ -55,7 +55,9 @@
 
     <section class="section">
       <p class="section-label">Tecnologías</p>
-      <h2>Herramientas con las que trabajo</h2>
+      <h2><span class="material-symbols-outlined size-36">
+apps
+</span> Herramientas con las que trabajo</h2>
 
       <div class="skills-grid">
         <span>Laravel</span>
@@ -81,7 +83,9 @@
 
     <section id="experience" class="section">
       <p class="section-label">Experiencia</p>
-      <h2>Donde he trabajado</h2>
+      <h2><span class="material-symbols-outlined size-36">
+work_history
+</span> Donde he trabajado</h2>
 
       <div class="timeline">
         <article class="experience-card">
@@ -188,7 +192,9 @@
       <div class="section-header">
         <div>
           <p class="section-label">Proyectos</p>
-          <h2>Algunos trabajos</h2>
+          <h2><span class="material-symbols-outlined size-36">
+code_xml
+</span> Algunos trabajos</h2>
         </div>
 
         <p>
@@ -220,22 +226,20 @@
     </section>
 
     <section id="contact" class="section contact">
-      <p class="section-label">Contacto</p>
 
-    <!--   <h2>Hablemos</h2>
+     
+      <p class="section-label"> Contacto</p>
 
-      <p>
-        Estoy abierto a oportunidades como desarrollador web, full stack,
-        Laravel developer o desarrollador móvil.
-      </p> -->
-
+      
       <a href="mailto:eduardocastro1997@gmail.com" class="btn primary">
         Enviar correo
       </a>
 
       <div class="contact-links">
         <a href="tel:+525549611009" class="contact-card">
-          <span class="icon">📞</span>
+         <span class="material-symbols-outlined">
+call
+</span>
 
           <div>
             <small>Teléfono</small>
@@ -260,6 +264,21 @@
           </div>
         </a>
       </div>
+
+      <br>
+      <br>
+
+<h2><span class="material-symbols-outlined size-36">
+location_on
+</span></h2>
+
+      <p style=" font-size: larger; font-weight:700;">
+       AMPL STA MARTHA ACATITLA, CP 09510, IZTAPALAPA, CDMX.
+      </p>
+
+
+
+
     </section>
   </main>
 </template>
@@ -368,8 +387,8 @@ const projects = [
 .eyebrow,
 .section-label,
 .project-type {
-  color: #38bdf8;
-  font-size: 13px;
+  color: #1de9bd;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.16em;

@@ -13,3 +13,13 @@ body {
     radial-gradient(circle at top right, rgba(56, 189, 248, 0.1), transparent 28%),
     #020617;
 }
+
+span.size-36 {
+  font-size: 36px;
+  font-variation-settings: 'OPSZ' 36;
+}
+
+span.size-10 {
+  font-size: 15px;
+  font-variation-settings: 'OPSZ' 10;
+}
