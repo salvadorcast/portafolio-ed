@@ -33,7 +33,7 @@
         <div class="photo-placeholder">
           <!-- <span>Tu foto</span> -->
 
-          <img :src="'/images/profile.jpg'" alt="Foto de Eduardo Ramírez">
+          <img :src="'./images/profile.jpg'" alt="Foto de Eduardo Ramírez">
         </div>
       </div>
     </section>
@@ -87,7 +87,7 @@
         <article class="experience-card">
           <div>
               <p>
-                <img :src="'/images/icons/bennetts.png'" height="60px" alt="">
+                <img :src="'./images/icons/bennetts.png'" height="60px" alt="">
             </p>
             <h3>Grupo Bennetts</h3>
             <p class="role">Programador Jr · septiembre 2022 - marzo 2026</p>
@@ -141,7 +141,7 @@
         <article class="experience-card">
           <div>
              <p>
-                <img :src="'/images/icons/sedlogo.png'" height="60px" alt="">
+                <img :src="'./images/icons/sedlogo.png'" height="60px" alt="">
             </p>
             <h3>SED México</h3>
             <p class="role">Desarrollador Web · octubre 2021 - julio 2022</p>
@@ -249,7 +249,7 @@
           class="contact-card whatsapp"
         >
           <img
-             :src="'/images/icons/whatsapp.png'"
+             :src="'./images/icons/whatsapp.png'"
             alt="WhatsApp"
             class="contact-icon"
           >
@@ -271,7 +271,7 @@ const projects = [
     type: 'Backend / API REST',
     description:
       'API multiservicios con Laravel para gestionar negocios y conectar información con una aplicación móvil.',
-    image: '/images/projects/sed.png',
+    image: './images/projects/sed.png',
     tags: ['Laravel', 'MySQL', 'API REST'],
     },
 
@@ -279,7 +279,7 @@ const projects = [
   title: 'Aplicación de Gestión en Campo',
   type: 'Mobile App',
   description: 'Desarrollo de una aplicación para operaciones en campo, permitiendo el registro y consulta de información en tiempo real.',
-  image: '/images/projects/field.png',
+  image: './images/projects/field.png',
   tags: ['Angular', 'TypeScript', 'API REST'],
 },
   {
@@ -287,7 +287,7 @@ const projects = [
     type: 'Mobile App',
     description:
       'Aplicación móvil conectada a backend, creada con tecnologías web y preparada para despliegue.',
-    image: '/images/projects/unib.png',
+    image: './images/projects/unib.png',
     tags: ['Flutter', 'Cordova', 'PHP'],
   },
   {
@@ -295,7 +295,7 @@ const projects = [
     type: 'Web App',
     description:
       'Panel web para gestión interna, consultas, usuarios y mejora de procesos administrativos.',
-    image: '/images/projects/people.png',
+    image: './images/projects/people.png',
     tags: ['Vue', 'Laravel', 'SQL'],
     },
   {
@@ -303,7 +303,7 @@ const projects = [
   type: 'Web & Mobile',
   description:
     'Mejora de rendimiento, corrección de incidencias e implementación de nuevas funcionalidades en plataformas web y móviles.',
-  image: '/images/projects/code.png',
+  image: './images/projects/code.png',
   tags: ['Laravel', 'Flutter', 'APIs'],
     },
 {
@@ -311,7 +311,7 @@ const projects = [
   type: 'E-commerce',
   description:
     'Implementación de pagos en línea mediante Mercado Pago para sitios web y tiendas virtuales, permitiendo transacciones seguras con tarjetas de crédito y débito.',
-  image: '/images/projects/mp.png',
+  image: './images/projects/mp.png',
   tags: ['PHP', 'WordPress', 'Mercado Pago'],
 },
 ]
