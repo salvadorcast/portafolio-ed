@@ -197,11 +197,11 @@ code_xml
 </span> Algunos trabajos</h2>
         </div>
 
-        <p>
+       <!--  <p>
           Aquí puedo mostrar proyectos personales, prácticas o trabajos donde
           participé. Las imágenes se pueden cambiar fácilmente desde la carpeta
           pública del proyecto.
-        </p>
+        </p> -->
       </div>
 
       <div class="projects-grid">
