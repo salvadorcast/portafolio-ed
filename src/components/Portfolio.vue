@@ -1,7 +1,9 @@
 <template>
   <main class="portfolio">
     <nav class="navbar">
-      <a href="#" class="logo">Eduardo Ramírez</a>
+      <a href="#" class="logo">ER<!-- <span class="material-symbols-outlined size-36">
+work
+</span> --></a>
 
       <div class="nav-links">
         <a href="#about"><span class="material-symbols-outlined size-10"> person </span> Sobre mí</a> |
@@ -15,10 +17,10 @@
       <div class="hero-content">
         <p class="eyebrow">Desarrollador Full Stack</p>
 
-        <h1>Construyo aplicaciones web y móviles.</h1>
+        <h1>Eduardo Ramirez</h1>
 
         <p class="hero-text">
-          Soy Eduardo Ramírez, desarrollador de platformas Web, bases de datos y aplicaciones móviles. Me enfoco en crear soluciones claras, estables y fáciles de usar.
+          Soy desarrollador de plataformas Web, bases de datos y aplicaciones móviles. Me enfoco en crear soluciones claras, estables y fáciles de usar.
         </p>
 
         <div class="hero-actions">
@@ -387,8 +389,8 @@ const projects = [
 .eyebrow,
 .section-label,
 .project-type {
-  color: #1de9bd;
-  font-size: 18px;
+  color: #0deebd;
+  font-size: 19px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.16em;
