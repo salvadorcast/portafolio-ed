@@ -296,14 +296,14 @@ const projects = [
 
     {
   title: 'Aplicación de Gestión en Campo',
-  type: 'Mobile App',
+  type: 'aplicación móvil',
   description: 'Desarrollo de una aplicación para operaciones en campo, permitiendo el registro y consulta de información en tiempo real.',
   image: './images/projects/field.png',
   tags: ['Angular', 'TypeScript', 'API REST'],
 },
   {
     title: 'Aplicación móvil híbrida',
-    type: 'Mobile App',
+    type: 'Aplicación móvil',
     description:
       'Aplicación móvil conectada a backend, creada con tecnologías web y preparada para despliegue.',
     image: './images/projects/unib.png',
@@ -311,7 +311,7 @@ const projects = [
   },
   {
     title: 'Sistema administrativo',
-    type: 'Web App',
+    type: 'Aplicación Web',
     description:
       'Panel web para gestión interna, consultas, usuarios y mejora de procesos administrativos.',
     image: './images/projects/people.png',
@@ -319,7 +319,7 @@ const projects = [
     },
   {
   title: 'Optimización de Aplicaciones Empresariales',
-  type: 'Web & Mobile',
+  type: 'Web & móvil',
   description:
     'Mejora de rendimiento, corrección de incidencias e implementación de nuevas funcionalidades en plataformas web y móviles.',
   image: './images/projects/code.png',
