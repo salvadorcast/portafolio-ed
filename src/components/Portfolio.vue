@@ -96,7 +96,7 @@ work_history
                 <img :src="'./images/icons/bennetts.png'" height="60px" alt="">
             </p>
             <h3>Grupo Bennetts</h3>
-            <p class="role">Programador Jr · septiembre 2022 - marzo 2026</p>
+            <p class="role">Desarrollador Full Stack · septiembre 2022 - marzo 2026</p>
             <a href="https://grupobennetts.com.mx" target="_blank">
               grupobennetts.com.mx
             </a>
